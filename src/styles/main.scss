@@ -1,15 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "_vars.scss,_commonStyle.scss";
+@import "_vars";
 :root {
 	background: $background;
 	color: $text;
 	font: 1rem "PT Sans", sans-serif;
 }
-.App{
-    @include flexCenter;
-}
+
 .form__container{
     a {
         color: inherit;
@@ -76,4 +74,12 @@
             padding: 22px 18px;
         }
     }
+}
+.CircularProgressbar{
+    width: 10%!important;
+    margin:1rem auto;
+
+}
+.CircularProgressbar .CircularProgressbar-path{
+    stroke: #7f8ff4!important;
 }

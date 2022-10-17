@@ -59,4 +59,13 @@
   border: 0;
   outline: 0;
   padding: 22px 18px;
+}
+
+.CircularProgressbar {
+  width: 10% !important;
+  margin: 1rem auto;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #7f8ff4 !important;
 }/*# sourceMappingURL=main.css.map */
