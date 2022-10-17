@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
+import "./styles/main.css"
+import Main from './pages/Main';
 
 function App() {
   return (
     <div className="App">
-      hi
+      <div className='container'>
+        <Main/>
+      </div>
     </div>
   );
 }
